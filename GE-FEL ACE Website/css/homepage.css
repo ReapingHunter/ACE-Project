@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #dedede;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    position: relative; /* Add position relative to allow absolute positioning within the header */
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; /* Center vertically within the container */
+    width: 100%;
+}
+
+.beerLogo {
+    width: 199px;
+    height: 167px;
+}
+
+.schoolLogo {
+    width: 170px;
+    height: 158px;
+    margin-left: auto;
+}
+
+.title {
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    margin: 0;
+    font-size: 96px;
+    line-height: 1;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Move the navbar to the right */
+    align-items: center; /* Center vertically */
+    margin-top: 120px; /* Adjust the margin top */
+    margin-left: 22%; /* Adjust the margin right */
+}
+
+.navbar button {
+    padding: 10px 20px; /* Remove horizontal padding */
+    margin: 0; /* Remove margin */
+    border: none;
+    background-color: #d9d9d9;
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.navbar button:not(:last-child) {
+    border-right: 2px solid #000000; /* Add vertical line between buttons */
+}
